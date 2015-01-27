@@ -7,8 +7,7 @@ permalink: /about/
 ### Information
 
 Learning and studying Web Development with the wonderful world of Internet and everyone in it.
-Current homebase: Hannover, Germany.
 
-### Contact me for ANY reason
+### Current homebase: Hannover, Germany.
 
-[via e-mail](mailto:tammepoeg@gmail.com)
+### Contact me for ANY reason [via e-mail](mailto:tammepoeg@gmail.com)
