@@ -6,7 +6,7 @@
 name: Arghh
 
 # Short bio or description (displayed in the header)
-description: Newbie Web Developer
+description: Learnie Web Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://www.codeislaw.com/layout-01.jpg
@@ -63,6 +63,9 @@ sass:
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:
