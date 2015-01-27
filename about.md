@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About.me
+title: About me
 permalink: /about/
 ---
 
@@ -11,4 +11,4 @@ Current homebase: Hannover, Germany.
 
 ### Contact me for ANY reason
 
-[tammepoeg@gmail.com](mailto:tammepoeg@gmail.com)
+[email](mailto:tammepoeg@gmail.com)
