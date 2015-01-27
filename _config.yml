@@ -16,7 +16,7 @@ avatar: http://www.codeislaw.com/layout-01.jpg
 #
 
 # Includes an icon in the footer for each username you enter
-footer-links: http://jekyllrb.com/
+footer-links: 
   dribbble: 
   email: tammepoeg@gmail.com
   facebook: argo.liivanurm
@@ -25,10 +25,9 @@ footer-links: http://jekyllrb.com/
   instagram: 
   linkedin: 
   pinterest: 
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: feed # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
 
