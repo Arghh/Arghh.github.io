@@ -11,4 +11,4 @@ Current homebase: Hannover, Germany.
 
 ### Contact me for ANY reason
 
-[email](mailto:tammepoeg@gmail.com)
+[via e-mail](mailto:tammepoeg@gmail.com)
