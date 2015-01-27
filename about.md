@@ -1,15 +1,14 @@
 ---
 layout: page
-title: About
+title: About.me
 permalink: /about/
 ---
 
-Some information about you!
+### Information
 
-### More Information
+Learning and studying Web Development with the wonderful world of Internet and everyone in it.
+Current homebase: Hannover, Germany.
 
-A place to include any other types of information that you'd like to include about yourself. 
+### Contact me for ANY reason
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[tammepoeg@gmail.com](mailto:tammepoeg@gmail.com)
