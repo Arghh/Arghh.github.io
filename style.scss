@@ -251,6 +251,8 @@ nav {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
   background-color: $lightGray;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 .posts > .post:last-child {
@@ -263,7 +265,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: red;
     font-size: 22px;
     font-style: italic;
   }
