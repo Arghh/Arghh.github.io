@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Here too get YOU learning
+title: Here to get YOU learning
 ---
 
 ### Some useful info on how to get started:
