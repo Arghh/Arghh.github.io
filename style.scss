@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  color: $gray;
+  color: red;
   a {
     color: inherit;
   }
@@ -109,6 +109,9 @@ strong, b {
 
 img {
   max-width: 100%;
+  text-align: right;
+  border: 2px solid;
+  border-radius: 25px;
 }
 
 // Fixes images in popup boxes from Google Translate
