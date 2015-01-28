@@ -3,16 +3,15 @@ layout: default
 ---
 <h1>Hi there! Nice of you to drop by.</h1>
   
-<p><a href=http://arghh.github.io/blog.html>Here</a> you will find my blog about the struggles of becoming a web developer.<br></p>
+<p><a href=http://arghh.github.io/blog><b>Here</b></a> you will find my blog about the struggles of becoming a web developer.<br></p>
 <img src="http://cdn.iwastesomuchtime.com/4192012222851VhlQK.gif">
 <p>Stick around to find out more!</p>
 <hr>
 <h2>All posts so far:</h2>
 
-  <ul> {% for post in site.posts %}
+<ul> {% for post in site.posts %}
   <li>
     <a href="http://arghh.github.io">{{ post.title }}</a>
   </li>
   {% endfor %}
-  </ul>
-  <hr>
+</ul>
