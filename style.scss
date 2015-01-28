@@ -28,6 +28,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  color: $lightGray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,7 +63,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
 }
 
 p {
@@ -72,6 +72,7 @@ p {
 .frontpagepost {
 	margin: 15px 0;
 	float: right;
+	text-align: justify;
 }
 
 a {
