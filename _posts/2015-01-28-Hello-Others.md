@@ -3,12 +3,11 @@ layout: post
 title: Here too get YOU learning
 ---
 
-<h3>some useful info on how to get started:</h3>
+### Some useful info on how to get started:
 
 <p>First things first. To understand what are  you getting yourself into, [here](http://www.theodinproject.com/introduction-to-web-development/what-a-web-developer-does?ref=home) are the basics in a beatiful form.</p>
 
-<h3>Here are some other places to look</h3>
-
+### Here are some other places worth checking:
 <ul> 
     <li>[Codeacademy](http://www.codecademy.com/) has the basics and it's a hands on learning enviroment without hours of boring videos. </li>
     <li>[Khanacademy](https://www.khanacademy.org/) is similar to Codeacademy but with wider range (f.e pyshics, algerbra) and mainly meant for children.</li>
