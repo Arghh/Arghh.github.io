@@ -3,5 +3,4 @@ layout: page
 title: About me
 permalink: /about/
 ---
-
-Workz
+<img src="http://www.codeislaw.com/layout-01.jpg">
