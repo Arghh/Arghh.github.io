@@ -1,6 +1,6 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+permalink: /portfolio/
 ---
 <img src="http://www.codeislaw.com/layout-01.jpg">
