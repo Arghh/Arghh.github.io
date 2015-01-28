@@ -3,19 +3,11 @@ layout: blog
 title: Blob
 permalink: /blog/
 ---
-{% for post in site.posts %}
-{% include JB/post_content %}
-{% endfor %}
-and post_content
-
-<article class="unit-article layout-post">
-    <div class="unit-inner unit-article-inner">
-        <div class="content">
-            <div class="bd">
-                <div class="entry-content">
-                    {{ post.content }}
-                </div><!-- entry-content -->
-            </div><!-- bd -->
-        </div><!-- content -->
-    </div><!-- unit-inner -->
-</article>
+<h3>Posts</h3>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
