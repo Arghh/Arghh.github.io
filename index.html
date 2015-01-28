@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-<h1>Hi there! Nice of you to drop by.</h1>
+<div><h1>Hi there! Nice of you to drop by.</h1></div>
   
-<p><a href=http://arghh.github.io/blog><b>Here</b></a> you will find my blog about the struggles of becoming a web developer.<br></p>
+<div><p><a href=http://arghh.github.io/blog><b>Here</b></a> you will find my blog about the struggles of becoming a web developer.<br>
 <img src="http://cdn.iwastesomuchtime.com/4192012222851VhlQK.gif" id="programmergif">
-<p>Stick around to find out more!</p>
+Stick around to find out more!</p></div>
 <hr>
-<h2>All posts so far:</h2>
+<div class="post"><h2>All posts so far:</h2>
 
 <ul> {% for post in site.posts %}
   <li>
     <a href="http://arghh.github.io">{{ post.title }}</a>
   </li>
   {% endfor %}
-</ul>
+</ul></div>
