@@ -3,5 +3,14 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
+<div class="posts">
+  {% for post in site.posts %}
+    
+    <article class="post">    
+      
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-asdasd
+      <div class="entry">
+        {{ post.content | truncatewords:40}}
+      </div>
+    </article>
