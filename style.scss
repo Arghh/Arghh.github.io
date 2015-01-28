@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  color: red;
+  color: $red;
   a {
     color: inherit;
   }
@@ -286,8 +286,6 @@ footer {
   text-align: center;
 }
 
-    display:none;
-}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
