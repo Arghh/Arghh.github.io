@@ -1,6 +1,17 @@
 ---
 layout: post
-title: Odin Project
+title: /r/learnprogramming/
 ---
 
-If you wanna join a growing community devoted to learning web development you could check out [The Odin Project](http://www.theodinproject.com/). Very practical, easy and up-to-date learning experience. Still in Beta, it is based on [Viking Code School](http://www.vikingcodeschool.com/). Which is made by the same people, but will costs you a pretty penny. If you really serious, maybe could consider it, but I think the costs are a bit to [high](http://www.vikingcodeschool.com/apply), even for such a good program.
+#### Everyone knows [**Reddit**](www.reddit.com), right? 
+Well **here** are some valuable subreddits for wannabe WebDevs:
+
++[LearnProgramming](http://www.reddit.com/r/learnprogramming)
++[CScareer](http://www.reddit.com/r/cscareerquestions)
++[Starups](http://www.reddit.com/r/startups)
+
+And some bonus places to put in pratice, all that you have have learnt:
+
++[Freelancers](https://www.freelancer.com/) full of easy/fast project for all kinds of developers. Highly flooded with cheap Indians who will always undercut you.
++[Buildwithme](http://builditwith.me/) joins desingers and developers in making apps.
++[Founder2be](http://www.founder2be.com/) is for people with ideas who are looking for support.
