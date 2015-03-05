@@ -4,4 +4,4 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<img src="images/workingonit.gif">
+<img src="{{ site.baseurl }}/images/workingonit.gif" style="width: 400px;"/>
