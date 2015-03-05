@@ -4,12 +4,11 @@ title: Blob
 permalink: /blog/
 ---
 <div class="posts">
-  <h1>My Blob:</h1>
   {% for post in site.posts %}
-    
+    <h2>My Blob posts:</h2>
     <article class="post">    
       
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
       <div class="entry"><p>
         {{ post.content | truncatewords:20}}
