@@ -11,11 +11,13 @@ permalink: /blog/
     <article class="post">    
       
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <h4>{{ site.time | date_to_string }}</h4>
 
       <div class="entry">
         {{ post.content | truncatewords:10}}
       </div>
+      <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
     </article>
   {% endfor %}
 </div>
