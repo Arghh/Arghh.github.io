@@ -4,4 +4,4 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<img src="{{ site.baseurl }}/images/workingonit.gif" style="max-width: 400px; margin-left: auto; margin-right: auto;"/>
+<img src="{{ site.baseurl }}/images/workingonit.gif" align="middle" style="max-width: auto;"/>
