@@ -4,10 +4,10 @@ title: About me
 permalink: /about/
 ---
 
-### Information
+## Information
 
 Learning Web Development with the wonderful world of Internet and everyone in it.
 
-#### Current homebase: [Hannover, Germany](http://www.hannover.de/Kultur-Freizeit)
+### Current homebase: [Hannover, Germany](http://www.hannover.de/Kultur-Freizeit)
 
-##### Contact me for ANY reason [via e-mail](mailto:tammepoeg@gmail.com)
+#### Contact me for **ANY** reason [via e-mail](mailto:tammepoeg@gmail.com)
