@@ -13,7 +13,7 @@ permalink: /blog/
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
       <div class="entry"><p>
-        {{ post.content | strip_html | |replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '| truncatewords:25}} <a href="{{ site.baseurl }}{{ post.url }}" style="font-size:14px"> | continue reading</a>
+        {{ post.content | strip_html | |replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '|replace:'  ',' '| truncatewords:25}} <a href="{{ site.baseurl }}{{ post.url }}" style="font-size:14px">continue reading</a>
       </div></p>
       <div class="date">
     Written on {{ post.date | date: "%B %e, %Y" }}
