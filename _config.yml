@@ -9,7 +9,7 @@ name: Argo
 description: Learnie Web Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://www.codeislaw.com/layout-01.jpg
+avatar: {{ site.baseurl }}/images/layout-01.jpg
 
 #
 # Flags below are optional
