@@ -10,9 +10,9 @@ layout: default
 <div id="allposts"><h2>All posts so far:</h2>
 
 <ul> {% for post in site.posts %}
-  <li>
+  <ul>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
+  </ul>
   {% endfor %}
   
 </ul></div>
