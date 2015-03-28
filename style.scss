@@ -320,7 +320,7 @@ img[alt=cebit] {
     background-color: white;
     font-size: 20px;
 }
-.textaerea {
+.textarea {
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
@@ -329,9 +329,25 @@ img[alt=cebit] {
 }
 
 .button {
+     color: $blue;
+     cursor: pointer;
+     display: inline-block;
+     border-radius: 3px;
+     padding: 7px 12px;
+     font-weight: 400;
+     text-decoration: none;
+     -webkit-transition: background-color .2s linear;
+    -moz-transition: background-color .2s linear;
+    -ms-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    
+  &:hover, &:active {
+    color: #000080;
+  }
+}
 	
 }
-
 .label {
   padding: 0;
   margin: 0;
