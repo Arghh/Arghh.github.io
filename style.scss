@@ -318,6 +318,8 @@ img[alt=cebit] {
     height: 30px;
     border-radius: 5px;
     font-size: 20px;
+    display: inline-block;
+    float: left;
 }
 .textarea {
 	font-size: 20px;
@@ -325,6 +327,8 @@ img[alt=cebit] {
 	padding: 0;
 	height 300px;
 	border-radius: 5px;
+	display: inline-block;
+        float: left;
 }
 
 .button {
@@ -334,12 +338,18 @@ img[alt=cebit] {
      border-radius: 3px;
      padding: 7px 12px;
      text-decoration: none;
+     display: inline-block;
 }
 .label {
   padding: 0;
   margin: 0;
   font-size: 20px;
   color: $blue;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
 }
 //contact page end
 
