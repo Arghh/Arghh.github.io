@@ -7,9 +7,9 @@ layout: default
 <img src="images/pr0grammer.gif" alt="programmer" id="programmergif"><br>
 <i>(Couldn't find a better picture)</i></p></div>
 <hr>
-<div id="allposts"><h2>All posts so far:</h2>
+<div id="allposts">
 
-<ul> {% for post in site.posts %}
+<ul><h2>All posts so far:</h2> {% for post in site.posts %}
   <ul>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </ul>
