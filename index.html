@@ -19,20 +19,15 @@ layout: default
 </ul></div>
 <hr>
 <article class="post">
-<h2>/lastest post/</h2>
-{% for post in site.posts limit:1 %}
-... Show the first post all big ...
-{% endfor %}
-<h2>Recent Posts</h2>
-{% for post in site.posts offset:1 limit:2 %}
+<h2>/Recent post/</h2>
+{% for post in site.posts offset:1 limit:1 %}
+<a href="{{ post.url }}">
+<h3>{{ post.title }}</h3>
 <div class="entry">
     {{ content }}
   </div>
-
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 {% endfor %}
-
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
