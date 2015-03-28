@@ -314,10 +314,10 @@ img[alt=cebit] {
 //contactpage
 
 .messagebox {
-	font-weight: 300;
         font-size: 1rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
+        display: block;
 }
 
 textarea.input {
@@ -341,7 +341,6 @@ button, input, select, textarea {
   border: none;
   -webkit-appearance: none;
   white-space: nowrap;
-  display: inline-block;
   line-height: 2rem;
   height: auto;
   min-height: 2rem;
@@ -360,6 +359,7 @@ button, input, select, textarea {
   padding: .5rem;
   border-radius: .25rem;
 }
+
 .textarea {
   box-sizing: border-box;
   padding: 1rem;
