@@ -312,52 +312,18 @@ img[alt=cebit] {
 }
 
 //contactpage
-.button {
-  font-size: 1rem;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-.button-disabled {
-  opacity: 0.55;
-  background-color: #999;
-}
-
-.button-disabled:hover,
-.button-disabled:active,
-.button-disabled:focus {
-  cursor: not-allowed;
-  background-color: #999;
-}
-
-.form {
-  font-family: 'Helvetica Neue';
-  font-weight: 200;
-  font-size: 1rem;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-}
-.name {
-  padding: 1em 5em;
-  font-size: 30px;
-}
-
-.textarea {
-	margin: 1em 5em;
-	font-size: 30px;
-}
-
-.messagebox {
-	margin: 1em 5em;
-	font-size: 30px;
-}
-
-.textarea {
-	font-size: 30;
-}
-
-.textarea.input {
-  height: 2em;
+input[type=text] {
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid $blue;
+    border-radius: 5px;
+    border-color: $gray;
+    background-color: white;
+    font-size: 16px;
+    
 }
 //contact page end
 
