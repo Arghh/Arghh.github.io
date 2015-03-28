@@ -331,18 +331,18 @@ img[alt=cebit] {
 	padding: 10px 20px;
 	font-family: $helveticaNeue;
 	background: $blue;
-	-webkit-border-radius: 1;
-        -moz-border-radius: 1;
-        border-radius: 1px;
+	-webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
         color: $white;
         border: solid;
-        transition-timing-function: ease;
-        transition-property: box-shadow , background-color;
         margin-right: 10px;
 }
 .button:hover, #rock:hover, #paper:hover, #scissors:hover {
 	background: blue;
 	cursor: pointer;
+	transition-timing-function: ease;
+        transition-property: box-shadow , background-color;
 }
 //contact page end
 
