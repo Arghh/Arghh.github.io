@@ -316,6 +316,11 @@ img[alt=cebit] {
 .input {
 	font-family: inherit;
 	width: 100%
+        box-sizing: border-box;
+        padding: 1rem;
+        line-height: 1.5rem;
+        border-radius: .25rem;
+}
 }
 
 #box1, #box2 {
