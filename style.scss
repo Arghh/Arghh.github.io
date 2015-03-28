@@ -320,8 +320,7 @@ img[alt=cebit] {
 .button, #rock, #paper, #scissors {
 	font-weight: bold;
 	padding: 10px 20px;
-	font-family: inherit;
-	text-decoration: none;
+	font-family: $helveticaNeue;
 	background: $blue;
 	-webkit-border-radius: 5;
         -moz-border-radius: 5;
