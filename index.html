@@ -7,16 +7,16 @@ layout: default
 <img src="images/pr0grammer.gif" alt="programmer" id="programmergif"><br>
 <i>(Couldn't find a better picture)</i></p></div>
 <hr>
-<article id="recentpost">
-<a href="{{ site.baseurl }}{{ post.url }}">
-<h2 style="text-align: right">/recent post/</h2></a>
+<div class="recentpost">
+<article>
+<h2 style="text-align: right"><a href="{{ site.baseurl }}{{ post.url }}">/recent post/</a></h2>
 {% for post in site.posts offset:0 limit:1 %}
-<h3>{{ post.title }}</h3>
+<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 <div class="entry">
     <div>{{ post.content | strip_html | truncatehtml | truncatewords: 25}}</div><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">continue reading</a>
   </div>
 {% endfor %}
-</article>
+</article></div>
 <hr>
 <div id="allposts">
 <ul>
