@@ -317,7 +317,6 @@ img[alt=cebit] {
     padding: 0;
     height: 30px;
     border-radius: 5px;
-    background-color: white;
     font-size: 20px;
 }
 .textarea {
@@ -334,13 +333,7 @@ img[alt=cebit] {
      display: inline-block;
      border-radius: 3px;
      padding: 7px 12px;
-     font-weight: 400;
      text-decoration: none;
-     -webkit-transition: background-color .2s linear;
-    -moz-transition: background-color .2s linear;
-    -ms-transition: background-color .2s linear;
-    -o-transition: background-color .2s linear;
-    transition: background-color .2s linear;
     
   &:hover, &:active {
     color: #000080;
@@ -352,7 +345,6 @@ img[alt=cebit] {
   margin: 0;
   font-size: 20px;
   color: $blue;
-  font-family: $helveticaNeue;
 }
 //contact page end
 
