@@ -7,7 +7,20 @@ layout: default
 <img src="images/pr0grammer.gif" alt="programmer" id="programmergif"><br>
 <i>(Couldn't find a better picture)</i></p></div>
 <hr>
-
+<article class="post">
+<a href="{{ post.url }}">
+<h2 style="text-align: right">/recent post/</h2>
+{% for post in site.posts offset:0 limit:1 %}
+<h3>{{ post.title }}</h3></a>
+<div class="entry">
+    <div>{{ post.content | strip_html | truncatehtml | truncatewords: 25}}</div><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">continue reading</a>
+  </div>
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+{% endfor %}
+</article>
+<hr>
 <div id="allposts">
 <ul>
 <h2 style="text-align: right"><a href="http://arghh.github.io/blog">/archive/</a></h2> 
@@ -18,16 +31,3 @@ layout: default
   {% endfor %}
 </ul></div>
 <hr>
-<article class="post">
-<a href="{{ post.url }}">
-<h2 style="text-align: right">/recent post/</h2>
-{% for post in site.posts offset:0 limit:1 %}
-<h3>{{ post.title }}</h3></a>
-<div class="entry">
-    <div>{{ post.content |truncatehtml | truncatewords: 50}}</div>
-  </div>
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-{% endfor %}
-</article>
