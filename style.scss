@@ -248,9 +248,13 @@ nav {
   	
   }
 }
-.selected {
- color: #000080;
-  }
+.select {
+  box-sizing: border-box;
+  height: 3rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: .25rem;
+}
 //
 // .main
 //
