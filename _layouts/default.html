@@ -32,10 +32,10 @@
           </div>
           
           <nav>
-            <a href="http://arghh.github.io/blog" class="selected">Blog</a>
-            <a href="http://arghh.github.io/portfolio">Portfolio</a>
-            <a href="http://arghh.github.io/bored">Bored?</a>
-            <a href="http://arghh.github.io/about">About</a>
+            <a href="http://arghh.github.io/blog" class="{% if page.url == '/index.html' %}selected{% endif %}">Blog</a>
+            <a href="http://arghh.github.io/portfolio" class="{% if page.url == '/index.html' %}selected{% endif %}">Portfolio</a>
+            <a href="http://arghh.github.io/bored" class="{% if page.url == '/index.html' %}selected{% endif %}">Bored?</a>
+            <a href="http://arghh.github.io/about" class="{% if page.url == '/index.html' %}selected{% endif %}">About</a>
           </nav>
         </header>
       </div>
