@@ -312,18 +312,24 @@ img[alt=cebit] {
 }
 
 //contactpage
-input[type=text] {
+.emailarea {
+    margin: 0;
     padding: 0;
     height: 30px;
-    position: relative;
-    left: 0;
-    outline: none;
-    border: 1px solid $blue;
     border-radius: 5px;
-    border-color: $gray;
     background-color: white;
-    font-size: 16px;
-    
+    font-size: 20px;
+}
+.textaerea {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	height 300px;
+	border-radius: 5px;
+}
+
+.button {
+	
 }
 //contact page end
 
