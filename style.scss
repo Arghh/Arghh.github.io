@@ -344,9 +344,8 @@ img[alt=cebit] {
     
   &:hover, &:active {
     color: #000080;
+    cursor: none;
   }
-}
-	
 }
 .label {
   padding: 0;
@@ -354,8 +353,6 @@ img[alt=cebit] {
   font-size: 20px;
   color: $blue;
   font-family: $helveticaNeue;
-}
-	
 }
 //contact page end
 
