@@ -3,13 +3,14 @@ layout: default
 ---
 <div><h1 id="hititle">Hello World! How nice of you to drop by</h1></div>
   
-<div><p class="frontpagepost"><a href=http://arghh.github.io/blog><b>Here</b></a> you will find my blog about the struggles of becoming a web developer.<br><br>
+<div><p class="frontpagepost"><a href="http://arghh.github.io/blog"><b>Here</b></a> you will find my blog about the struggles of becoming a web developer.<br><br>
 <img src="images/pr0grammer.gif" alt="programmer" id="programmergif"><br>
 <i>(Couldn't find a better picture)</i></p></div>
 <hr>
 <div id="allposts">
 
-<ul><h2>Archive:</h2> 
+<ul>
+<h2><a href="http://arghh.github.io/blog">/archive/</a></h2> 
 {% for post in site.posts %}
   <ul>
   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>   {{ post.date | date: "%B %e, %Y" }}
