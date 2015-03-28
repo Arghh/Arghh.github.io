@@ -10,7 +10,7 @@ layout: default
 <hr>
 <div class="recentpost">
 <article>
-<h2 style="text-align: right"><a href="http://arghh.github.io/blog">/recent post/</a></h2>
+<h2 style="text-align: right">/recent post/</h2>
 {% for post in site.posts offset:0 limit:1 %}
 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 <div class="entry">
@@ -29,3 +29,12 @@ layout: default
 {% endfor %}
 </ul></div>
 <hr>
+<div>
+  <h2 style="text-align: right">/contactme/</h2>
+  <form action="//formspree.io/argoliivanurm@email.com">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+
+</div>
