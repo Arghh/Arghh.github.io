@@ -10,7 +10,7 @@ layout: default
 
 <div id="allposts">
 <ul>
-<h2><a href="http://arghh.github.io/blog">/archive/</a></h2> 
+<h2 style="text-align: right"><a href="http://arghh.github.io/blog">/archive/</a></h2> 
 {% for post in site.posts %}
   <ul>
   <div>{{ post.date | date: "%B %e, %Y" }} / <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
@@ -19,9 +19,9 @@ layout: default
 </ul></div>
 <hr>
 <article class="post">
-<h2>/Recent post/</h2>
-{% for post in site.posts offset:0 limit:1 %}
 <a href="{{ post.url }}">
+<h2 style="text-align: right">/recent post/</h2>
+{% for post in site.posts offset:0 limit:1 %}
 <h3>{{ post.title }}</h3></a>
 <div class="entry">
     <div>{{ post.content |truncatehtml | truncatewords: 50}}</div>
