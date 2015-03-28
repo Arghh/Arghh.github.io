@@ -316,19 +316,18 @@ img[alt=cebit] {
 .messagebox {
     	width: 100%;
         display: block;
-        padding: 1em 1em;
         margin:0;
 }
 
 .input {
 	font-family: inherit;
-	font-size: 16px;
-	padding: 15px;
+	font-size: 20px;
+	padding: 20px;
 	max-width: 100%;
-	border-radius: 10px;
+	border-radius: 5px;
 	display: block;
-	margin: 0 0 10px 0;
-	border: 5px solid $gray; 
+	margin 10px 0;
+	border: 5px solid $blue; 
 }
 
 
@@ -344,7 +343,7 @@ img[alt=cebit] {
   appearance: none;
   white-space: nowrap;
   display: inline-block;
-  padding: 1em 1em;
+  padding: 10px 20px;
 }
 //contact page end
 
