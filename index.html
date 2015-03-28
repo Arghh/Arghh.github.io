@@ -13,7 +13,7 @@ layout: default
 <h2><a href="http://arghh.github.io/blog">/archive/</a></h2> 
 {% for post in site.posts %}
   <ul>
-  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>   {{ post.date | date: "%B %e, %Y" }}
+  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
   </ul>
   {% endfor %}
   
