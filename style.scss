@@ -315,7 +315,6 @@ img[alt=cebit] {
 .emailarea {
     margin: 0;
     padding: 0;
-    height: 30px;
     border-radius: 5px;
     font-size: 20px;
     display: inline-block;
@@ -325,7 +324,6 @@ img[alt=cebit] {
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
-	height 300px;
 	border-radius: 5px;
 	display: inline-block;
         float: left;
@@ -340,16 +338,16 @@ img[alt=cebit] {
      text-decoration: none;
      display: inline-block;
 }
+
 .label {
   padding: 0;
   margin: 0;
   font-size: 20px;
   color: $blue;
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
+  display: inline-block;
+  float: left;
+  clear: left;
+  text-align: right;
 }
 //contact page end
 
