@@ -318,6 +318,7 @@ img[alt=cebit] {
 }
 
 .button, #rock, #paper, #scissors {
+	font-weight: bold;
 	padding: 10px 20px;
 	font-family: inherit;
 	text-decoration: none;
@@ -326,10 +327,11 @@ img[alt=cebit] {
         -moz-border-radius: 5;
         border-radius: 5px;
         color: $white;
+        border: solid;
 }
 .button:hover, #rock:hover, #paper:hover, #scissors:hover {
 	background: blue;
-	cursor: pointer;;
+	cursor: pointer;
 }
 //contact page end
 
