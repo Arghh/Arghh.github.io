@@ -334,13 +334,14 @@ button, input, select, textarea {
 
 .button {
   font-family: inherit;
-  font-size: 100%;	
-  background-color: $blue;
   font-weight: bold;
+  text-decoration: none;
   cursor: pointer;
   border: none;
   -webkit-appearance: none;
+  appearance: none;
   white-space: nowrap;
+  display: inline-block;
   line-height: 2rem;
   height: auto;
   min-height: 2rem;
@@ -360,11 +361,32 @@ button, input, select, textarea {
   border-radius: .25rem;
 }
 
+.select {
+  box-sizing: border-box;
+  height: 3rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: .25rem;
+}
+
 .textarea {
   box-sizing: border-box;
   padding: 1rem;
   line-height: 1.5rem;
   border-radius: .25rem;
+}
+
+.form-stacked label,
+.form-stacked .input,
+.form-stacked .select {
+  display: block;
+  width: 100%;
+}
+.form-stacked .input,
+.form-stacked .select,
+.form-stacked .radio,
+.form-stacked .checkbox {
+  margin-bottom: 1rem;
 }
 //contact page end
 
