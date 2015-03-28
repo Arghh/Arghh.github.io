@@ -318,13 +318,14 @@ img[alt=cebit] {
 }
 
 .button {
+	padding: 10px;
 	font-family: inherit;
 	text-decoration: none;
-	background: blue;
+	background: $blue;
 	-webkit-border-radius: 5;
         -moz-border-radius: 5;
         border-radius: 5px;
-        color: white;
+        color: $white;
 }
 //contact page end
 
