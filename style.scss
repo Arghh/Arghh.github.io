@@ -316,10 +316,6 @@ img[alt=cebit] {
 .input {
 	font-family: inherit;
 	width: 100%
-        box-sizing: border-box;
-        padding: 1rem;
-        line-height: 1.5rem;
-        border-radius: .25rem;
 }
 }
 
@@ -329,6 +325,10 @@ img[alt=cebit] {
 	-webkit-border-radius: 10;
         -moz-border-radius: 10;
         border-radius: 10px;
+        box-sizing: border-box;
+        padding: 1rem;
+        line-height: 1.5rem;
+        border-radius: .25rem;
 }
 
 .button, #rock, #paper, #scissors {
