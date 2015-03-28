@@ -320,11 +320,12 @@ img[alt=cebit] {
         margin:0;
 }
 
-
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
+.input {
+	font-family: inherit;
+	max-width: 100%;
+	border-radius: 1em;
 }
+
 
 .button {
   font-family: inherit;
@@ -338,10 +339,7 @@ button, input, select, textarea {
   appearance: none;
   white-space: nowrap;
   display: inline-block;
-  line-height: 2rem;
-  height: auto;
-  min-height: 2rem;
-  padding: .5rem 1rem;
+  padding: 1em 1em;
 }
 //contact page end
 
