@@ -314,18 +314,12 @@ img[alt=cebit] {
 //contactpage
 
 .messagebox {
-        font-size: 1rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+    	width: 100%;
         display: block;
+        padding: 1em 1em;
+        margin:0;
 }
 
-textarea.input {
-  height: 8em;
-}
-.form {
-  font-size: 1rem;
-}
 
 button, input, select, textarea {
   font-family: inherit;
@@ -376,7 +370,7 @@ button, input, select, textarea {
   box-sizing: border-box;
   padding: 1rem;
   line-height: 1.5rem;
-  border-radius: .25rem;
+  border-radius: 1rem;
 }
 //contact page end
 
