@@ -7,8 +7,8 @@ layout: default
 <img src="images/pr0grammer.gif" alt="programmer" id="programmergif"><br>
 <i>(Couldn't find a better picture)</i></p></div>
 <hr>
-<div id="allposts">
 
+<div id="allposts">
 <ul>
 <h2><a href="http://arghh.github.io/blog">/archive/</a></h2> 
 {% for post in site.posts %}
@@ -16,7 +16,17 @@ layout: default
   <div>{{ post.date | date: "%B %e, %Y" }} / <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
   </ul>
   {% endfor %}
-  
 </ul></div>
 <hr>
+<article class="post">
+<h2>/lastest post/</h2>
+{% for post in site.posts limit:1 %}
+... Show the first post all big ...
+{% endfor %}
+<h1>Recent Posts</h1>
+{% for post in site.posts offset:1 limit:2 %}
+... Show the next two posts ...
+{% endfor %}
 
+  {% include disqus.html disqus_identifier=page.disqus_identifier %}
+</article>
