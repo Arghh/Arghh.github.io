@@ -330,13 +330,22 @@ img[alt=cebit] {
   background-color: #999;
 }
 
-form {
+.form {
   font-family: 'Helvetica Neue';
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1rem;
 }
+.name {
+font-family: 'Helvetica Neue';
+font-weight: 150;
+  font-size: 1rem;
+}
+.message {
+	font-family: 'Helvetica Neue';
+	display: inline-block;
+}
 
-textarea.input {
+.textarea.input {
   height: 8em;
 }
 //contact page end
