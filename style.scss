@@ -318,7 +318,7 @@ img[alt=cebit] {
 }
 
 .button {
-	padding: 10px;
+	padding: 10px 20px;
 	font-family: inherit;
 	text-decoration: none;
 	background: $blue;
@@ -326,6 +326,10 @@ img[alt=cebit] {
         -moz-border-radius: 5;
         border-radius: 5px;
         color: $white;
+}
+.button:hover {
+	background: blue;
+	cursor: pointer;;
 }
 //contact page end
 
