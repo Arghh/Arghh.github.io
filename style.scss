@@ -327,18 +327,7 @@ textarea.input {
   font-size: 1rem;
 }
 
-.input {
-  appearance: none;
-  border-style: solid;
-  border-width: 1px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  max-width: 100%;
-  height: 3rem;
-  line-height: 2rem;
-  padding: .5rem;
-  border-radius: .25rem;
-}
+
 
 .button {
   background-color: $blue;
@@ -356,32 +345,12 @@ textarea.input {
   min-height: 2rem;
   padding: .5rem 1rem;
 }
-.select {
-  box-sizing: border-box;
-  height: 3rem;
-  margin-right: 0;
-  margin-left: 0;
-  border-radius: .25rem;
-}
 
 .textarea {
   box-sizing: border-box;
   padding: 1rem;
   line-height: 1.5rem;
   border-radius: .25rem;
-}
-
-.form-stacked label,
-.form-stacked .input,
-.form-stacked .select {
-  display: block;
-  width: 100%;
-}
-.form-stacked .input,
-.form-stacked .select,
-.form-stacked .radio,
-.form-stacked .checkbox {
-  margin-bottom: 1rem;
 }
 //contact page end
 
