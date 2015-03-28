@@ -10,7 +10,7 @@ layout: default
 <hr>
 <div class="recentpost">
 <article>
-<h2 style="text-align: right"><a href="{ site.baseurl }}{{ post.url }}">/recent post/</a></h2>
+<h2 style="text-align: right"><a href="{{ site.baseurl }}{{ post.url }}">/recent post/</a></h2>
 {% for post in site.posts offset:0 limit:1 %}
 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 <div class="entry">
