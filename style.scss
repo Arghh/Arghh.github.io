@@ -312,14 +312,10 @@ img[alt=cebit] {
 }
 
 //contactpage
-input[type=text], input[type=email], {
+
+.input {
 	font-family: inherit;
 	width: 100%
-	padding: 10px;
-}
-
-.input.textarea {
-	padding: 10px;
 }
 
 .button, #rock, #paper, #scissors {
