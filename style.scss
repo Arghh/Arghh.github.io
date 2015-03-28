@@ -320,6 +320,10 @@ img[alt=cebit] {
 
 #box1 {
 	padding: 10px;
+	border: 1 px solid #ddd;
+	-webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 5px;
 }
 
 #box2 {
