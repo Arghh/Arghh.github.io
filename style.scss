@@ -323,9 +323,9 @@ img[alt=cebit] {
 .textarea {
 	font-size: 20px;
 	margin: 0;
-	padding: 5em 5em;
+	padding: 0;
 	border-radius: 5px;
-	display: inline-block;
+	display: block;
         float: left;
 }
 
@@ -334,7 +334,6 @@ img[alt=cebit] {
      cursor: pointer;
      border-radius: 4px;
      padding: 4px 4px;
-     display: inline-block;
 }
 
 .label {
@@ -342,7 +341,7 @@ img[alt=cebit] {
   margin: 0;
   font-size: 24px;
   color: $blue;
-  display: inline-block;
+  display: block;
   float: left;
   clear: left;
   text-align: right;
