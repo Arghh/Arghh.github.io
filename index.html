@@ -8,15 +8,12 @@ layout: default
 <i>(Couldn't find a better picture)</i></p></div>
 <hr>
 <article class="post">
-<a href="{{ post.url }}">
+<a href="{{ site.baseurl }}{{ post.url }}">
 <h2 style="text-align: right">/recent post/</h2>
 {% for post in site.posts offset:0 limit:1 %}
 <h3>{{ post.title }}</h3></a>
 <div class="entry">
     <div>{{ post.content | strip_html | truncatehtml | truncatewords: 25}}</div><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">continue reading</a>
-  </div>
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 {% endfor %}
 </article>
