@@ -326,16 +326,6 @@ img[alt=cebit] {
         border-radius: 10px;
 }
 
-::-webkit-input-placeholder {
-   padding: 5px;
-   
-::-moz-placeholder {  /* Firefox 19+ */
-   padding: 5px;  
-}
-:-ms-input-placeholder {  
-   padding: 5px;   
-}
-
 .button, #rock, #paper, #scissors {
 	font-weight: bold;
 	padding: 10px 20px;
@@ -346,6 +336,8 @@ img[alt=cebit] {
         border-radius: 5px;
         color: $white;
         border: solid;
+        transition-timing-function: ease;
+        transition-property: box-shadow , background-color;
 }
 .button:hover, #rock:hover, #paper:hover, #scissors:hover {
 	background: blue;
