@@ -312,7 +312,7 @@ img[alt=cebit] {
 }
 
 //contactpage
-.input {
+input[type=text], input[type=email] {
 	font-family: inherit;
 	width: 100%
 }
