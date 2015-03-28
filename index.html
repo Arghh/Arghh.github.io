@@ -9,9 +9,9 @@ layout: default
 <hr>
 <article id="recentpost">
 <a href="{{ site.baseurl }}{{ post.url }}">
-<h2 style="text-align: right">/recent post/</h2>
+<h2 style="text-align: right">/recent post/</h2></a>
 {% for post in site.posts offset:0 limit:1 %}
-<h3>{{ post.title }}</h3></a>
+<h3>{{ post.title }}</h3>
 <div class="entry">
     <div>{{ post.content | strip_html | truncatehtml | truncatewords: 25}}</div><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">continue reading</a>
   </div>
