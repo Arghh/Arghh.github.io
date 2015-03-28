@@ -256,7 +256,9 @@ nav {
 //
 
 .posts > .post {
-background-color: $lightGray;	
+background-color: $lightGray;
+padding: 0.1em 1em;
+margin: 1.8em .8em;
 }
 
 .posts > .post:last-child {
@@ -269,7 +271,7 @@ background-color: $lightGray;
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $blue;
+    color: $gray;
     font-size: 18px;
     font-style: italic;
   }
@@ -280,7 +282,7 @@ background-color: $lightGray;
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
