@@ -334,19 +334,22 @@ img[alt=cebit] {
   font-family: 'Helvetica Neue';
   font-weight: 200;
   font-size: 1rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 .name {
-font-family: 'Helvetica Neue';
-font-weight: 150;
-  font-size: 1rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
-.message {
+
+.messagebox {
 	font-family: 'Helvetica Neue';
 	display: inline-block;
+	font-size: 20px;
 }
 
 .textarea.input {
-  height: 8em;
+  height: 2em;
 }
 //contact page end
 
