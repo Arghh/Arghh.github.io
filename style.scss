@@ -332,10 +332,15 @@ img[alt=cebit] {
 }
 
 .googletable {
-	width: 30em;
-	height: 30em;
+	width: 20em;
+	height: 20em;
 }
 
+.text {
+	display: block;
+	float: left;
+	width: 100%;
+}
 //contact page end
 
 .wrapper-footer {
