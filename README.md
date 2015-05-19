@@ -1,2 +1,2 @@
 # arghh.github.io
-My blog about becoming a web developer.
+My blog about becoming a web/software developer.
