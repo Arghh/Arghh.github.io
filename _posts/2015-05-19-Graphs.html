@@ -1,0 +1,159 @@
+---
+layout: post
+title: Statistic
+---
+<head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    
+        
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        //first chart//  
+        var data = google.visualization.arrayToDataTable([
+          ['Feedback', 'Number'],
+          ['Email', 23],
+          ['None', 2],
+          ['Phone', 3],
+          ['Post', 1],        
+        ]);
+
+        var options = {
+          title: 'Medium of Contact',
+          pieHole: 0.1,
+         pieSliceText: 'label',
+         };    
+        
+    //second chart//
+        var data2 = google.visualization.arrayToDataTable([
+          ['Field', 'Number'],    
+          ['Advertising', 4], 
+          ['Ecommerce', 5],        
+          ['IT-Systemhouse', 5],
+          ['Software', 8],
+          ['Printing', 1], 
+          ['Logistics', 1],
+          ['Hosting', 2],    
+          ['Education', 3],
+        ]);
+
+        var options2 = {
+          title: 'Field of Expertice',
+          pieHole: 0.1,
+        };
+          
+        var data3 = google.visualization.arrayToDataTable([
+          ['Results', 'Number'],
+          ['Stage1', 4],        
+          ['Stage2', 12],
+          ['Stage3',  8],
+          ['Stage4', 2],
+          ['Stage5', 3],
+        ]);  
+        var options3 = {
+          title: 'Results',
+          pieHole: 0.3,
+            pieSliceText: 'label',
+            legend: 'none'
+        };  
+        
+            var data4 = google.visualization.arrayToDataTable([
+          ['Waited', 'Number'],
+          ['No reply', 5],        
+          ['Same day', 2],        
+          ['1 Day', 3],
+          ['2 Days', 4],
+          ['3 Days', 2],
+          ['4 Days', 1],
+          ['5 Days', 0],
+          ['5-10 Days', 4],
+          ['10-20 Days', 3],
+          ['20-30 Days', 5],      
+        ]);  
+        var options4 = {
+          title: 'Waited for a reply',
+          pieHole: 0.1,
+             pieSliceText: 'label',
+        };  
+          var data5 = google.visualization.arrayToDataTable([
+          ['Answer', 'Number'],
+          ['No answer', 4],        
+          ['Yes', 13],
+          ['No', 12],
+        ]); 
+          
+        var options5 = {
+          title: 'Answer',
+          pieHole: 0.4,
+            pieSliceText: 'label',
+            legend: 'none',
+        }; 
+            var chart = new google.visualization.PieChart(document.getElementById('Feedback'));
+            chart.draw(data, options);
+            var chart2 = new google.visualization.PieChart(document.getElementById('Field'));
+            chart2.draw(data2, options2);
+            var chart3 = new google.visualization.PieChart(document.getElementById('Results'));
+            chart3.draw(data3, options3);
+            var chart4 = new google.visualization.PieChart(document.getElementById('Waited'));
+            chart4.draw(data4, options4);
+            var chart5 = new google.visualization.PieChart(document.getElementById('Answer'));
+            chart5.draw(data5, options5);
+          
+          
+      }    
+    
+    </script>
+    
+  </head>
+  
+  
+  <body>
+   <h2>The Struggle is real</h2>
+       <article>
+           <p>So after three months of applications, emails and interviews I finally managed to secure an Internship at a local IT company. I'm happy and grateful for the chance I was given.<br>
+   During this time I kept track of all my applications and now it's time to sum it all up in some graphics.<br>
+       In total I applied to <b>29</b> companies over the period starting from <b>18.01.2015</b> and ending <b>01.04.2015</b><br>I had interviews, phonecalls and emails after the enddate on <b>01.04</b>, but that was the day I send my last application, so I think it is a good endpoint as any. This process takes so long because the start of most apprenticeship in Germany is on the 01.08, so it's not in the URGENT pile in many companies to-do lists.</p>
+            <p>I've created a tiny statistic for you to see - how easy or hard - it is to actually find an <a href="http://de.wikipedia.org/wiki/Ausbildung"><i>Ausbildung</i></a> in Hannover as <a href="http://de.wikipedia.org/wiki/Fachinformatiker"><i>Fachinformatiker für Anwendungsentwicklung</i></a>.<br>
+<i>For people, who are not familiar with the system in Germany: it basically means a three year long apprenticeship (school + work) as a Software Developer at a company.</i><br></p>    
+            <p>The graphics are all based on my personal experience and they do not claim to be the norm in any way. For instance the first applications I send where all not very well written, so that shaped my statistics a lot. It also showed, because I got way more feedback for the ones I send in March then f.e start of February. Also at start I was too picky and that might have cost me some interviews. Live and learn.</p>
+   <p><b>Btw I call it</b></p>
+   <br>
+   <br>
+   <h2 style="text-align: center;">"Finding an <i>Ausbildungsplatz</i> as a Non-Native German Speaker in Hannover (2015)"</h2>
+   </article>
+   <br>
+<table id="graphs">
+    <tr>
+        <td><p>To give you some idea of the type of work the companies, who offer internships in 2015 in Hannover, are active in. I tried to categorize them as best as I could. I tried to kept it as general as possible.</p></td>
+        <td><div id="Field" class="googletable" style="width: 70em; height: 35em"></div></td>
+      </tr>
+  <tr>
+     <td><p>What medium, if at all, the companies used to get back in touch with me. First contact - so to say. Some companies didn't even respond after follow up email and phone call.</p></td>
+     <td><div id="Feedback" class="googletable" style="width: 70em; height: 35em"></div></td>
+  </tr>
+   <tr>
+        <td><p>How long it took the companies (if at all) to get back in touch. The first contact (general ty and confirmation) comes usually very fast. And then the waiting starts. Waiting for a "yes" or "no" takes a long time and can be frustrating, but you must take into consideration, that this is for something that starts in August, so it's not a priority in any Firm. That's why - I guess - the long waiting period after the first contact.<br>
+       PS I am not counting the weekends. Just weekdays.</p></td>
+       <td><div id="Waited" class="googletable" style="width: 70em; height: 35em"></div></td>
+   </tr>
+   <tr>
+      <td><p>My general results on how well I did. Did I manage to strike interest and score an interview. As I mentioned before: at first my application and the wording of my emails was maybe not the best. I think a lot of those, who ignored me, did not even bother to read it carefully. Plus I did not have all my certificates before March. So I think some no-s and no-replies are my own fault.</p></td>
+      <td><div id="Answer" class="googletable" style="width: 70em; height: 35em"></div></td>
+  </tr>
+   <tr>
+    <td><p>Finally my combined results. Meaning how far I made it with any given company. I categorized it into five stages:</p>
+        <ul><b>
+        <li>Stage1: No contact</li>
+        <li>Stage2: Email</li>
+        <li>Stage3: Interview</li>
+        <li>Stage4: Trial offered</li>
+            <li>Stage5: Job offered</li></b></ul>
+</td>
+    <td>
+        <div id="Results" class="googletable" style="width: 70em; height: 35em"></div>
+    </td>
+    </tr>
+</table>
+<article><h3>Conclusion:</h3><p>Immerhin I have an internship now and I'm very happy. Hope this will inspire at least someone to go for it in a foreign  country because the languages should not hold you back and it's a big plus in IT (whereever you live). The process is not easy, because it takes a long time and can be really stressful at times because of all this waiting and hoping combined.</p></article>     
+  </body>
