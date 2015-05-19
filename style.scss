@@ -322,25 +322,6 @@ img[alt=cebit] {
         border-radius: 20px;
 }
 
-//stats post css
-
-* {
-  @include box-sizing(border-box);
-}
-
-$pad: 20px;
-
-#graphs {
-  background: white;
-  margin: 0 0 $pad 0;
-  
-  &:after {
-    /* Or @extend clearfix */
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
 
 
 
