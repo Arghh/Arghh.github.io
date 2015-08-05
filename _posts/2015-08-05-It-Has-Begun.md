@@ -11,12 +11,10 @@ As an IDE our company uses [Visual Studio](https://www.visualstudio.com/en-us/do
 to use for anyone at home. We are on version 2012/2013 atm but soon we will switch to 2015. The programm in general is amazing and you can programm everything starting from websites and ending with software for supermarkets with it.
 And of course anything in between.
 
-For anyone interested out there, to get the first taste of C# language I recommend [this](https://www.microsoftvirtualacademy.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-8295)
-course by [Bob Tabor](http://www.bobtabor.com/) (also accessible [here](https://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-Beginners)
-incase you don't have a MS account.
+For anyone interested more on how to get the first taste of C# language, I recommend [this](https://www.microsoftvirtualacademy.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-8295)
+course by [Bob Tabor](http://www.bobtabor.com/) (also accessible [here](https://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-Beginners), in case you don't have/don't want a MS account.
 
-For people more into books then videos for learning - I have also read an excellent book about C# for noobs. It's free to download and gets tweeks by the author every year. The book is called "[The C# Programming Yellow Book](http://www.robmiles.com/c-yellow-book/)"
-by [Rob Miles](http://www2.hull.ac.uk/science/computer_science/our_staff/staff_profiles/rob_miles.aspx) from the University of Hull. It is a smart and well written book, with a lot of comments and tips for beginners. Also very witty and
-fun to read. The book contains A LOT of easy-to-understand examples.
+For people more into books then videos I recommend an excellent read about C# for noobs. It's free to download and gets tweeks by the author every year. The book is called "[The C# Programming Yellow Book](http://www.robmiles.com/c-yellow-book/)"
+by [Rob Miles](http://www2.hull.ac.uk/science/computer_science/our_staff/staff_profiles/rob_miles.aspx) from the University of Hull. It's a smart and well written book, with a lot of comments and tips for beginners. Bonus: it's very witty and fun to read. Extra: The book contains A LOT of easy-to-understand examples.
 
-That was it! I will report back with my progress if I actually have an ongoing project. In the meanwhile - **enjoy the summer**!
+That was it for now! I will report back with my progress if I actually have an ongoing project. In the meanwhile - **enjoy the summer**!
