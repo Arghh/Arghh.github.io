@@ -17,4 +17,4 @@ course by [Bob Tabor](http://www.bobtabor.com/) (also accessible [here](https://
 For people more into books then videos I recommend an excellent read about C# for noobs. It's free to download and gets tweeks by the author every year. The book is called "[The C# Programming Yellow Book](http://www.robmiles.com/c-yellow-book/)"
 by [Rob Miles](http://www2.hull.ac.uk/science/computer_science/our_staff/staff_profiles/rob_miles.aspx) from the University of Hull. It's a smart and well written book, with a lot of comments and tips for beginners. Bonus: it's very witty and fun to read. Extra: The book contains A LOT of easy-to-understand examples.
 
-That was it for now! I will report back with my progress if I actually have an ongoing project. In the meanwhile - **enjoy the summer**!
+That was it for now! I will report back with my progress if I actually have an ongoing project. In the meanwhile - **enjoy the ending summer**!
