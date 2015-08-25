@@ -40,10 +40,7 @@ permalink: /bored.html
         }
         var computerpicks = document.getElementById('computerpicks');
         computerpicks.innerHTML = computerChoice;
-        document.getElementById("wins").innerHTML = win;
-        document.getElementById("losses").innerHTML = loss;
-        document.getElementById("ties").innerHTML = tie; 
-        var result = document.getElementById("result");
+            
         var compare = function(choice1, choice2) 
         {
             if(choice1 === choice2) 
@@ -65,6 +62,7 @@ permalink: /bored.html
                     loss++;
                 }     
             }
+            
             else if(choice1 === "paper") 
             {
                 if(choice2 === "rock") 
@@ -79,6 +77,7 @@ permalink: /bored.html
                     loss++;
                 }
             }
+            
             else if(choice1 === "scissors") 
             {
                 if(choice2 === "paper") 
@@ -91,11 +90,17 @@ permalink: /bored.html
                    document.getElementById("result").innerHTML = "You Lost!";
                    loss++;
                 }
+            
             }
+        
         }
         console.log("User Choice: " + userChoice);
         console.log("Computer Choice: " + computerChoice);
         compare(userChoice, computerChoice)
+        document.getElementById("wins").innerHTML = win;
+        document.getElementById("losses").innerHTML = loss;
+        document.getElementById("ties").innerHTML = tie; 
+        var result = document.getElementById("result");
         } 
         </script>
         </body>
