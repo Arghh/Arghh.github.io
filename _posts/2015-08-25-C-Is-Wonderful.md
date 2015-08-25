@@ -12,7 +12,7 @@ Easy explanation: it is just that much more **faster** than C#.
 
 I would not recommend C++ for a beginner like myself tho. I wrote some basic string manipulation [functions](https://github.com/Arghh/code-samples/blob/master/string.cpp) to practice the syntax and to compare it to C#, it was a pain in the ass.
 
-So I'm gonna definitely stick to C# from now on. Much more programer-friendly. Much more noob friendly. Java and C# if you wanna get your hands dirty in OOP.
+So I'm going to definitely stick to C# from now on. Much more programer-friendly. Much more noob-friendly. Try Java and C# if you wanna get your hands dirty in OOP.
 
 Meanwhile check out this [great site](http://www.sanfoundry.com/) I found for learn basics about programming languages. Fun for beginners and intermediates.
 
