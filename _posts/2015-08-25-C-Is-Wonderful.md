@@ -7,7 +7,7 @@ So I have been getting deeper into C#. Last week I wrote my first tiny [programs
 Note-to-self: **Everything in C# is an object**
 
 Currently I'm learning about C and moving into C++. Those two, especially C, make C# look so safe and easy. (*Which it is of course!*) 
-C seems so outdated, if I'm been honest, but yet it exist and is been learned. Not as widely of course as C++ but still. That language will never die or at least, it will be used for a long-long time after we are gone, even tho it's over 30 years old! (*talking here about C++ of course*).
+C seems to complicated, if I'm been honest, but yet it exist and is been learned and used world wide (widely used for embedded systems like the firmware of your television). Not as widely as C++ but still a lot. That language will never die or at least, it will be used for a long-long time after we are gone, even tho it's over 30 years old! (*talking here about C++ of course*).
 Easy explanation: it is just that much more **faster** than C#.
 
 I would not recommend C++ for a beginner like myself tho. I wrote some basic string manipulation [functions](https://github.com/Arghh/code-samples/blob/master/string.cpp) to practice the syntax and to compare it to C#, it was a pain in the ass.
