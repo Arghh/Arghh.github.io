@@ -18,10 +18,10 @@ You can install what you want but I definitely recommend the [Pi-hole](http://pi
 
 **Alternative projects** There are tons of fun stuff that you can do with your Pi. Just google "Raspberry Pi projects". 
 
-Here are some of my favorites: 
-
--[Twitter account for a dog](http://henrywconklin.github.io/projects/2015/08/17/oliver-twitter.html)
--[Pi PirateBox](http://www.instructables.com/id/Raspberry-Pi-PirateBox/)
--[Pi KittyCam](https://github.com/girliemac/RPi-KittyCam)[pics](http://www.girliemac.com/RPi-KittyCam/)
--[Pi Retro Game console](http://lifehacker.com/how-to-turn-your-raspberry-pi-into-a-retro-game-console-498561192) Bonus: A cool [case](http://design.barriereader.co.uk/rpi/nes_rpi_a_case.pdf) for your RetroPi.
+|Here are some of my favorites: |
+|-------------------------------|
+|                               | -[Twitter account for a                         dog](http://henrywconklin.github.io/projects/2015/08/17/oliver-twitter.html)
+|                               |  -[Pi PirateBox](http://www.instructables.com/id/Raspberry-Pi-PirateBox/)
+|                               |  -[Pi KittyCam](https://github.com/girliemac/RPi-KittyCam)[pics](http://www.girliemac.com/RPi-KittyCam/)
+|                               |  -[Pi Retro Game console](http://lifehacker.com/how-to-turn-your-raspberry-pi-into-a-retro-game-console-498561192) Bonus: A |cool [case](http://design.barriereader.co.uk/rpi/nes_rpi_a_case.pdf) for your RetroPi.
 
