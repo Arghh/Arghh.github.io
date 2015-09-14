@@ -5,11 +5,11 @@ title: Raspberry Pi
 
 Over 3 years the Raspberry Pi has gotten more and more popular. In my home country even the Prime Minister attended the [project launch](https://www.raspberrypi.org/blog/raspberry-pi-in-estonia-project-launch/). 
 
-In the light of that event I thought I'd write about the Pi a bit and also my new [Raspberry Pi 2](https://www.raspberrypi.org/products/model-b-plus/) arrived last week.
+Light of that event I thought I'd write about the Pi a bit AND of course because my new [Raspberry Pi 2](https://www.raspberrypi.org/products/model-b-plus/) arrived last week.
 
-**First things first.** The Pi is just the body of your project. You also need hands and maybe legs to make it function. You can buy a [starter kit](https://www.pretzellogix.net/2015/01/14/the-best-raspberry-pi-starter-kits-compared-and-reviewed/) or combine your own, like I did. The Pi needs power, network connection (wireless dongle or cable) and keyboard(optional mouse if you wanna use desktop) and a screen for you to see what's going on. Most of those things you probably have at home lying around or you can borrow them (monitor, mouse, keyboard) from other devices while you set your Pi up.
+**First things first.** The Pi is just the body of your project. You also need hands and maybe legs to make it function. You can buy a [starter kit](https://www.pretzellogix.net/2015/01/14/the-best-raspberry-pi-starter-kits-compared-and-reviewed/) or combine your own - like I did. The Pi needs power, network connection (*wireless dongle or cable*), SD-card for the OS, keyboard (*optional is the mouse, if you wanna use a desktop*) and a screen for you to see what's going on and the initial setup. Most of those things you probably have at home lying around or you can borrow them (*monitor, mouse, keyboard*) from other devices, while you set your Pi up. So you don't need that much.
 
-**Tip**: for power you can use any mini-usb smartphone charger, but make sure it not some cheap chinese remake, because the powerflow needs to be stable. Safe bet is to buy a 5V charger.
+**Tip**: for power you can use any mini-usb smartphone charger, but make sure it is not some cheap chinese remake, because the powerflow needs to be stable. Safe bet is to buy a 5V charger.
 
 **Seconds step** Pick an OS. There are a lot options. The [official ones](https://www.raspberrypi.org/downloads/) promoted by Pi Foundation and the self-made ones. I went with one lightweight self-made called [DietPi](http://dietpi.net/). 
 
