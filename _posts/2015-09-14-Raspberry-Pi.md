@@ -31,5 +31,6 @@ There are tons of fun stuff that you can do with your Pi. Just google *"Raspberr
 
 [Pi KittyCam](https://github.com/girliemac/RPi-KittyCam). Here are some [pics](http://www.girliemac.com/RPi-KittyCam/).
 
-[Pi Retro Game console](http://lifehacker.com/how-to-turn-your-raspberry-pi-into-a-retro-game-console-498561192)* As a bonus: here is a cool [case](http://design.barriereader.co.uk/rpi/nes_rpi_a_case.pdf) for your RetroPi.*
+[Pi Retro Game console](http://lifehacker.com/how-to-turn-your-raspberry-pi-into-a-retro-game-console-498561192) 
+*A cool [case](http://design.barriereader.co.uk/rpi/nes_rpi_a_case.pdf) for your new RetroPi.*
 
