@@ -25,9 +25,9 @@ You can install what you want but I definitely recommend the [Pi-hole](http://pi
 
 There are tons of fun stuff that you can do with your Pi. Just google *"Raspberry Pi projects"*.  Here are some of my favorites:
 
-[Twitter account for a pet](http://henrywconklin.github.io/projects/2015/08/17/oliver-twitter.html)
+[Twitter account for a pet](http://henrywconklin.github.io/projects/2015/08/17/oliver-twitter.html). Help your pet share their thought with the world.
 
-[Pi PirateBox](http://www.instructables.com/id/Raspberry-Pi-PirateBox/)
+[Pi PirateBox](http://www.instructables.com/id/Raspberry-Pi-PirateBox/). A fun project combining your hardware and software skills.
 
 [Pi KittyCam](https://github.com/girliemac/RPi-KittyCam). Here are some [pics](http://www.girliemac.com/RPi-KittyCam/).
 
