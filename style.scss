@@ -378,10 +378,10 @@ ul.img-list {
 //change height/width to make images fit the screen better
 ul.img-list li {
   display: inline-block;
-  height: 600px;
+  height: 150px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 800px;
+  width: 200px;
 }
 
 //display text on bild
@@ -390,11 +390,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 600px;
+  height: 150px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 800px;
+  width: 200px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
