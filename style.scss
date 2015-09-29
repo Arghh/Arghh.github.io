@@ -58,7 +58,7 @@ h1 {
     line-height: 1.4;
   }
 }
-
+//page titles also h1-s
 .title {
     text-align: right;
 }
@@ -227,7 +227,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 25px; // @TODO: Vertically middle align
+  margin-top: 25px;
   font-family: $helveticaNeue;
   font-size: 18px;
   letter-spacing: 1px;
@@ -258,7 +258,7 @@ nav {
 //
 // .main
 //
-
+//
 .posts > .post {
 background-color: $lightGray;
 padding: 0.1em 1em;
@@ -291,7 +291,7 @@ margin: 1em 0.5em;
 .date {
 	font-size: 14px;
 }
-
+//front page items
 #programmergif {
 	max-width: 100%;
 	align: right;	
@@ -364,6 +364,23 @@ footer {
 	font-size: 14px;
 }
 
+//display text on portfolio images
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+
+//hover on image on portfolio
 .effectscale {
   border: none;
   margin: 0 auto;
