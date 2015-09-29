@@ -9,19 +9,20 @@ layout: default
 <i>(Couldn't find a better picture)</i></p></div>
 <hr>
 <div class="recentpost">
-<article>
-<h2 style="text-align: right"><a href="{{ site.baseurl }}{{ post.url }}">/recent post/</a></h2>
-{% for post in site.posts offset:0 limit:1 %}
-<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-<div class="entry">
-    <div>{{ post.content | strip_html | truncatehtml | truncatewords: 25}}</div><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">continue reading</a>
-  </div>
-{% endfor %}
-</article></div>
+    <article>
+        <h2 class="h2frontpage"><a href="{{ site.baseurl }}{{ post.url }}">/recent post/</a></h2>
+        {% for post in site.posts offset:0 limit:1 %}
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            <div class="entry">
+                    <div>{{ post.content | strip_html | truncatehtml | truncatewords: 25}}</div><a href="{{ site.baseurl }}{{                     post.url }}" class="read-more">continue reading</a>
+            </div>
+                    {% endfor %}
+    </article>
+</div>
 <hr>
 <div id="allposts">
 <ul>
-<h2 style="text-align: right"><a href="http://arghh.github.io/blog">/archive/</a></h2> 
+<h2 class="h2frontpage"><a href="http://arghh.github.io/blog">/archive/</a></h2> 
 {% for post in site.posts %}
 <ul>
 <div>{{ post.date | date: "%B %e, %Y" }}  /  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
