@@ -70,6 +70,10 @@ h2 {
     text-align: right;
 }
 
+.center_title {
+    text-align: center;
+}
+
 h3 {
   font-size: 20px;
 }
@@ -371,13 +375,13 @@ ul.img-list {
   padding: 0;
   text-align: center;
 }
-
+//change height/width to make images fit the screen better
 ul.img-list li {
   display: inline-block;
-  height: 150px;
+  height: 600px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 150px;
+  width: 800px;
 }
 
 //display text on bild
@@ -386,11 +390,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 600px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 150px;
+  width: 800px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -400,10 +404,6 @@ span.text-content {
 
 ul.img-list li:hover span.text-content {
   opacity: 1;
-}
-//contact page
-.center_title {
-    text-align: center;
 }
 //hover on image on portfolio
 .effectscale {
