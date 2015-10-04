@@ -19,7 +19,11 @@ The project was a lot of fun and I will definitely keep working on it. First thi
 
 In conclusion I can say, that the project was a success, because I now know the basics of game loops, rendering, frames and importance of **time** in *time * speed = distance* in **game design**. Those where the things I wanted to learn when I started my project and that I managed to accomplished.
 
-*A little TODO-list to make the game more fun and feel more like a real game.*
+
+
+
+
+*A little TODO-list to make the game more fun and playable.*
 
         Proper Menu (start/end screen)
         Animate the bombs
