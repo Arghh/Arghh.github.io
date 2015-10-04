@@ -21,12 +21,12 @@ In conclusion I can say, that the project was a success, because I now know the 
 
 *A little TODO-list to make the game more fun and feel more like a real game.*
 
-       1. Proper Menu (start/end screen)
-       2. Animate the bombs
-       3. Add levels or easy/med/hard mode
-       4. Highscores
-       5. Radar
-       6. Fix bullets direction bug
+        Proper Menu (start/end screen)
+        Animate the bombs
+        Add levels or easy/med/hard mode
+        Highscores
+        Radar
+        Fix bullets direction bug
        
 
 [**Download the game.** (*.zip file for windows only.*)](http://arghh.github.io/data/rotes_flugzeug.zip) - **compressed size 599KB.**
