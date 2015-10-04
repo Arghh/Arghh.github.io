@@ -29,4 +29,4 @@ In conclusion I can say, that the project was a success, because I now know the 
 6. Fix bullets direction bug
        
 
-[**Download the game.** (*.zip file for windows only.*)](http://arghh.github.io/data/rotes_flugzeug.zip)
+[**Download the game.** (*.zip file for windows only.*)](http://arghh.github.io/data/rotes_flugzeug.zip) - **compressed size 599KB.**
