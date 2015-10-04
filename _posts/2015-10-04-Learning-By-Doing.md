@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn by doing
+title: Learning by doing
 ---
 
 I finally finished the beta version of my first tiny 2D game and I learned a lot by doing it.
@@ -15,14 +15,14 @@ The project was a lot of fun and I will definitely keep working on it. First thi
 
 In conclusion I can say, that the project was a success, because I now know the basics of game loops, rendering, frames and importance of **time** in *time * speed = distance* in **game design**. Those where the things I wanted to learn when I started my project and that I accomplished.
 
-A little TODO-list to make the game more fun and feel more like a real game.
+*A little TODO-list to make the game more fun and feel more like a real game.*
 
-       1. Proper Menu (start/end screen)
-       2. Animate the bombs
-       3. Add levels or easy/med/hard mode
-       4. Highscores
-       5. Radar
-       5. Fix bullets direction bug
+1. Proper Menu (start/end screen)
+2. Animate the bombs
+3. Add levels or easy/med/hard mode
+4. Highscores
+5. Radar
+6. Fix bullets direction bug
        
 
 [**Download the game.** (*.zip file for windows only.*)](http://arghh.github.io/data/rotes_flugzeug.zip)
