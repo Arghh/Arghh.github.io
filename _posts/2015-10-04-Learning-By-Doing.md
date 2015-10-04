@@ -15,18 +15,18 @@ I learned a lot developing **Rotes Flugzeug**. The source-code grow over 500+ li
 
 Third thing I learned: **naming** things is really-really **hard**. When we write a new function, we name it and then focus **only** on what comes between the curly braces. After finishing a method, I often saw that the name I gave it at start (*might have been hours/days before I actually wrote the body of the function*), did not actually describe what the function did at all, so I had to rename a lot of methods and variables, too better represent, what they ended up doing. 
 
-The project was a lot of fun and I will definitely keep working on it. First thing on my list to do is to rewrite the sourcecode: remove the useless parts, replace a lot of if-else statements with loops or switch cases, give variables and methods better names. All of that is extra work and I should have planned my work better so I would not have to do it afterwards, but this was my first bigger project *(500 lines of code)* so it was something totally new for me. I know have a lot of new things I need to start learning.
+The project was a lot of fun and I will definitely keep working on it. First thing on my list to do is to rewrite the sourcecode: remove the useless parts, replace a lot of if-else statements with loops or switch cases, give variables and methods better names. All of that is extra work and I should have planned my work better so I would not have to do it afterwards, but this was my first bigger project *(500 lines of code)* so it was something totally new for me. I now have a lot of new things I need to start learning. 
 
-In conclusion I can say, that the project was a success, because I now know the basics of game loops, rendering, frames and importance of **time** in *time * speed = distance* in **game design**. Those where the things I wanted to learn when I started my project and that I accomplished.
+In conclusion I can say, that the project was a success, because I now know the basics of game loops, rendering, frames and importance of **time** in *time * speed = distance* in **game design**. Those where the things I wanted to learn when I started my project and that I managed to accomplished.
 
 *A little TODO-list to make the game more fun and feel more like a real game.*
 
-1. Proper Menu (start/end screen)
-2. Animate the bombs
-3. Add levels or easy/med/hard mode
-4. Highscores
-5. Radar
-6. Fix bullets direction bug
+       1. Proper Menu (start/end screen)
+       2. Animate the bombs
+       3. Add levels or easy/med/hard mode
+       4. Highscores
+       5. Radar
+       6. Fix bullets direction bug
        
 
 [**Download the game.** (*.zip file for windows only.*)](http://arghh.github.io/data/rotes_flugzeug.zip) - **compressed size 599KB.**
