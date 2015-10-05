@@ -2,9 +2,9 @@
 layout: post
 title: Here to get YOU learning
 ---
-
 ### Some useful info on how to get started:
 First things first. To understand what are  you getting yourself into, [here](http://www.theodinproject.com/introduction-to-web-development/what-a-web-developer-does?ref=home) are the basics in a beatiful form.
+
 
 
 ### Here are some other places worth checking:
