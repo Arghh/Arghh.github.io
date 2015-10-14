@@ -26,11 +26,8 @@ In conclusion I can say, that the project was a success, because I now know the 
 *A little TODO-list to make the game more fun and playable.*
 
         Proper Menu (start/end screen)
-        Animate the bombs
-        Add levels or easy/med/hard mode
         Highscores
         Radar
-        Fix bullets direction bug
        
 
-[**Download Rotes Flugzeug** (*.zip file for windows only.*) - *compressed size 599KB.*] (http://arghh.github.io/data/rotes_flugzeug2.zip)
+[**Download Rotes Flugzeug** (*.zip file for windows only.*) - *compressed size 599KB.*] (http://arghh.github.io/data/RotesFlugzeug.zip)
