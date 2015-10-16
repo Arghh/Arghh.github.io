@@ -30,4 +30,4 @@ In conclusion I can say, that the project was a success, because I now know the 
         Radar
        
 
-[**Download Rotes Flugzeug** (*.zip file for windows only.*) - *compressed size 599KB.*] (http://arghh.github.io/data/RotesFlugzeug.zip)
+[**Download Rotes Flugzeug** (*.zip file for windows only.*) - *compressed size 599KB.*] (http://arghh.github.io/data/rotes_flugzeug.zip)
