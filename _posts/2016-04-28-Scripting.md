@@ -42,18 +42,15 @@ Now for the second part - *that I failed on my first try* - run it automatically
 <br>
 <br>
 <br>
-####Conclusion
-
-For 2 weeks now I've not missed an offer and I've learned some python!
-<br>
-<br>
-<br>
-<br>
-<br>
 ![Script In Action](http://arghh.github.io/images/python/script.JPG)
 
 <small>*my script in action*</small>
 <br>
+<br>
+<br>
+####Conclusion
+
+For 2 weeks now I've not missed an offer and I've learned some python!
 <br>
 <br>
 <br>
