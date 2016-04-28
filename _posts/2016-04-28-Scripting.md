@@ -5,7 +5,7 @@ title: Scripting
 
 #### Background Story
 
-I'm looking for a flat in Hamburg and it's not going to good - been on the hunt for a month now. The real estate situation there is [insane.](http://immobilien-kompass.capital.de/hamburg/eimsbuettel-stadtbezirk/eimsbuettel-stadtteil) Affordable flats in a loved quarter (Altona, Ottensen, Eimsbüttel) stay online for about two to three hours and in that time the landlord / real estate agent will receives on average about **200** mails (So the agents have told me, to whom I've talked to about this.) 
+I'm looking for a flat in Hamburg and it's not going to good - been on the hunt for a month now. The real estate situation there is [insane.](http://immobilien-kompass.capital.de/hamburg/eimsbuettel-stadtbezirk/eimsbuettel-stadtteil) Affordable flats in a loved quarter (*f.e Altona, Ottensen, Eimsbüttel*) stay online for about two to three hours and in that time the landlord/real estate agent will receives on average about **200** emails (*So the agents have told me, to whom I've talked to about this problem.*) 
 
 That means, I need to be constantly online and hit the refresh button on the big 3,4 real eastet portals in Germany. Between job and school I don't have the time to do that, which means I miss out on a lot of good offers.
 <br>
