@@ -24,15 +24,19 @@ I need a program, that checks the portals I want, searches for the keywords I fi
 So I open my Visual Studio - as I always do when I want to write some code (*My goto IDE*). After a half a days work I finish a *web-crawler-like* console tool, that searches the websites, I tell him to and saves the links, that he finds, in a HTML-doc, that I can then check. I used [Abot](https://github.com/sjdirect/abot) to help me. Turned out ok. 
 
 Now for the second part - I need it to run without me sitting at the computer. Better yet - not at all on my PC, because I don't want to have it on the whole day. **Eureka moment!** I have a [PI](http://arghh.github.io/Raspberry-Pi/), I copy the program there and find some script to run the program for me! Wait a minute, my PI is running a Debian based lightweight OS called [DIETPI](http://dietpi.com/). Great! My Visual Studio compiled code is useless :(
+<br>
+<br>
+<br>
+<br>
 
-I need a break ..
-<br>
-<br>
-<br>
-<br>
 #### Lesson learned
 
 **Think my steps through until the very end BEFORE writing any code ..**
+<br>
+<br>
+<br>
+
+I need a break ..
 <br>
 <br>
 <br>
