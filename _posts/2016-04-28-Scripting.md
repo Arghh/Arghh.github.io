@@ -38,15 +38,15 @@ Now for the second part - *that I failed on my first try* - run it automatically
 <br>
 <br>
 <br>
+cron service status tab
+
 ![Cron Service Status](http://arghh.github.io/images/python/cron.JPG)
+<br>
+<br>
+<br>
+my python script in action
 
-*cron service status tab*
-<br>
-<br>
-<br>
 ![Script In Action](http://arghh.github.io/images/python/script.JPG)
-
-*my python script in action*
 <br>
 <br>
 <br>
