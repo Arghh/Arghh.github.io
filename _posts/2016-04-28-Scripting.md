@@ -31,7 +31,10 @@ Now for the second part - *that I failed on my first try* - run it automatically
 **Conclusion** For 2 weeks now I've not missed an offer and I've learned some python!
 
 *my script in action*
+
 ![Script In Action](http://arghh.github.io/images/python/script.JPG)
+
+
 
 
 
