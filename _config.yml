@@ -45,14 +45,13 @@ url: arghh.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 permalink: /:title/
-#
-# Jekyll 3 now only supports Kramdown for Markdown
-#
 
+# Jekyll 3 now only supports Kramdown for Markdown
 markdown: kramdown
 
 # Use GitHub flavored markdown, including triple backtick fenced code blocks
 input: GFM
+
 # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
 highlighter: rouge
 
