@@ -67,7 +67,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed
-  - jekyll-admin
+  #- jekyll-admin
 
       
       
