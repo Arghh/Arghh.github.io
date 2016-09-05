@@ -70,6 +70,7 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - mini_magick
+  - jekyll-admin
 
       
       
