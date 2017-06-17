@@ -3,7 +3,7 @@ layout: default
 ---
 <div><h1 id="hititle">Hello World! How nice of you to drop by</h1></div>
   
-<div><p class="frontpagepost"><a href="https://arghh.github.io/blog">
+<div><p class="frontpagepost"><a href="{{ site.baseurl }}/blog">
 <b>Here</b></a> you will find my blog about the struggles of becoming a programmer.<br><br>
 <img src="images/pr0grammer.gif" alt="programmer" id="programmergif"><br>
 <i>(Couldn't find a better picture)</i></p></div>
@@ -22,7 +22,7 @@ layout: default
 <hr>
 <div id="allposts">
 <ul>
-<h2 class="h2frontpage"><a href="https://arghh.github.io/blog">/archive/</a></h2> 
+<h2 class="h2frontpage"><a href="{{ site.baseurl }}/blog">/archive/</a></h2> 
 {% for post in site.posts %}
 <ul>
 <div>{{ post.date | date: "%B %e, %Y" }}  /  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>

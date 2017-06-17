@@ -14,7 +14,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="https://arghh.github.io/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Argo Liivanurm @ Learning Software Development" href="https://arghh.github.io/feed.xml" />
     <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/base-min.css">
@@ -33,11 +33,11 @@
           </div>
           
           <nav>
-            <a href="https://arghh.github.io/blog" class="{% if page.url == '/blog.html' %}selected{% endif %}">Blog</a>
-            <a href="https://arghh.github.io/portfolio" class="{% if page.url == '/portfolio.html' %}selected{% endif %}">Portfolio</a>
-            <a href="https://arghh.github.io/bored" class="{% if page.url == '/bored.html' %}selected{% endif %}">Bored?</a>
-            <a href="https://arghh.github.io/about" class="{% if page.url == '/about.html' %}selected{% endif %}">About</a>
-            <a href="https://arghh.github.io/contact" class="{% if page.url == '/contact.html' %}selected{% endif %}">Contact</a>
+            <a href="{{ site.baseurl }}/blog" class="{% if page.url == '/blog.html' %}selected{% endif %}">Blog</a>
+            <a href="{{ site.baseurl }}/portfolio" class="{% if page.url == '/portfolio.html' %}selected{% endif %}">Portfolio</a>
+            <a href="{{ site.baseurl }}/bored" class="{% if page.url == '/bored.html' %}selected{% endif %}">Bored?</a>
+            <a href="{{ site.baseurl }}/about" class="{% if page.url == '/about.html' %}selected{% endif %}">About</a>
+            <a href="{{ site.baseurl }}/contact" class="{% if page.url == '/contact.html' %}selected{% endif %}">Contact</a>
           </nav>
         </header>
       </div>
@@ -52,7 +52,7 @@
         <footer class="footer">
           {% include svg-icons.html %}
           <br>
-          <div class="footertext">Hosted by <a href="https://github.com/Arghh/arghh.github.io">GitHub</a> and powered by <a href="http://jekyllrb.com/">Jekyll.</a></div> 
+          <div class="footertext">Hosted by <a href="https://github.com/Arghh/arghh.github.io">GitHub</a> and powered by <a href="https://jekyllrb.com/">Jekyll.</a></div> 
         </footer>
       </div>
     </div>
