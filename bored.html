@@ -1,106 +1,90 @@
----
-layout: default
-title: Bored?
-permalink: /bored.html
----
-        <head><script type="text/javascript"></script>
-        <title>ROCK,PAPER,SCISSORS</title>
-        </head>
-        <body>
-<h1 class="title">/bored?/</h1>
+--- layout: default title: Bored? permalink: /bored.html ---
 
-        <h2>The game is Rock-Paper-Scissors</h2> 
-        <div id="userPicks">
+<head>
+    <script type="text/javascript"></script>
+    <title>ROCK,PAPER,SCISSORS</title>
+</head>
 
-        <button class="pure-button pure-button-active"; onClick = playFunction("rock"); style="margin-right: 15px;">Rock</button>
-        <button class="pure-button pure-button-active"; onClick = playFunction("paper"); style="margin-right: 15px;">Paper</button>
-        <button class="pure-button pure-button-active"; onClick = playFunction("scissors");>Scissors</button>
+<body>
+    <h1 class="title">/bored?/</h1>
 
-        </div>
-        </br>
-        <div id="resultpage">
+    <h2>The game is Rock-Paper-Scissors</h2>
+    <div id="userPicks">
+
+        <button class="pure-button pure-button-active" onClick="playFunction(rock)"; style="margin-right: 15px;">Rock</button>
+        <button class="pure-button pure-button-active" onClick="playFunction(paper)"; style="margin-right: 15px;">Paper</button>
+        <button class="pure-button pure-button-active" onClick="playFunction(scissors)";>Scissors</button>
+
+    </div>
+    </br>
+    <div id="resultpage">
         <p>Computer picked: <span id="computerpicks"></span></p>
         <p>Result: <span id="result"></span></p>
         <p><span>Wins: </span><span id="wins"></span><br>
-           <span>Losses: </span><span id="losses"></span><br>
-           <span>Draws: </span><span id="ties"></span><br>
-        </div>
-        <script>
+            <span>Losses: </span><span id="losses"></span><br>
+            <span>Draws: </span><span id="ties"></span><br>
+    </div>
+    <script>
         var win = 0;
         var loss = 0;
         var tie = 0;
-        function playFunction(userChoice) {   
-         computerChoice = Math.random();
-        if (computerChoice < 0.34) {
-            computerChoice = "rock";
-        } else if(computerChoice < 0.67) {
-            computerChoice = "paper";
-        } else {
-            computerChoice = "scissors";
-        }
-        var computerpicks = document.getElementById('computerpicks');
-        computerpicks.innerHTML = computerChoice;
-            
-        var compare = function(choice1, choice2) 
-        {
-            if(choice1 === choice2) 
-            {
-                document.getElementById("result").innerHTML = "It's a tie!";
-                tie++;
-            } 
-            else if (choice1 === "rock") 
-            {
-                if(choice2 === "scissors") 
-                {
-                    document.getElementById("result").innerHTML = "You won!";
-                    win++;
-                } 
-               
-                if(choice2 === "paper")
-                {
-                    document.getElementById("result").innerHTML = "You lost!";
-                    loss++;
-                }     
+
+        function playFunction(userChoice) {
+            computerChoice = Math.random();
+            if (computerChoice < 0.34) {
+                computerChoice = "rock";
+            } else if (computerChoice < 0.67) {
+                computerChoice = "paper";
+            } else {
+                computerChoice = "scissors";
             }
-            
-            else if(choice1 === "paper") 
-            {
-                if(choice2 === "rock") 
-                {
-                    document.getElementById("result").innerHTML = "You won!";
-                    win++;
-                } 
-                
-                if(choice2 === "scissors") 
-                {
-                    document.getElementById("result").innerHTML = "You lost!";
-                    loss++;
+            var computerpicks = document.getElementById('computerpicks');
+            computerpicks.innerHTML = computerChoice;
+
+            var compare = function (choice1, choice2) {
+                if (choice1 === choice2) {
+                    document.getElementById("result").innerHTML = "It's a tie!";
+                    tie++;
+                } else if (choice1 === "rock") {
+                    if (choice2 === "scissors") {
+                        document.getElementById("result").innerHTML = "You won!";
+                        win++;
+                    }
+
+                    if (choice2 === "paper") {
+                        document.getElementById("result").innerHTML = "You lost!";
+                        loss++;
+                    }
+                } else if (choice1 === "paper") {
+                    if (choice2 === "rock") {
+                        document.getElementById("result").innerHTML = "You won!";
+                        win++;
+                    }
+
+                    if (choice2 === "scissors") {
+                        document.getElementById("result").innerHTML = "You lost!";
+                        loss++;
+                    }
+                } else if (choice1 === "scissors") {
+                    if (choice2 === "paper") {
+                        document.getElementById("result").innerHTML = "You won!";
+                        win++;
+                    }
+                    if (choice2 === "rock") {
+                        document.getElementById("result").innerHTML = "You lost!";
+                        loss++;
+                    }
+
                 }
+
             }
-            
-            else if(choice1 === "scissors") 
-            {
-                if(choice2 === "paper") 
-                {
-                    document.getElementById("result").innerHTML = "You won!";
-                    win++;
-                }    
-                if(choice2 === "rock") 
-                {
-                   document.getElementById("result").innerHTML = "You lost!";
-                   loss++;
-                }
-            
-            }
-        
+            console.log("User Choice: " + userChoice);
+            console.log("Computer Choice: " + computerChoice);
+            compare(userChoice, computerChoice)
+            document.getElementById("wins").innerHTML = win;
+            document.getElementById("losses").innerHTML = loss;
+            document.getElementById("ties").innerHTML = tie;
+            var result = document.getElementById("result");
         }
-        console.log("User Choice: " + userChoice);
-        console.log("Computer Choice: " + computerChoice);
-        compare(userChoice, computerChoice)
-        document.getElementById("wins").innerHTML = win;
-        document.getElementById("losses").innerHTML = loss;
-        document.getElementById("ties").innerHTML = tie; 
-        var result = document.getElementById("result");
-        } 
-        </script>
-        </body>
+    </script>
+</body>
